@@ -15,7 +15,7 @@ package name.lzc.pattern.creational.singleton;
 
 public class Singleton2 {
 
-	private static Singleton2 singleton2;
+	private static volatile Singleton2 singleton2;
 	
 	private Singleton2() {};
 	
